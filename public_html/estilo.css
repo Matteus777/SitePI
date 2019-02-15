@@ -1,0 +1,11 @@
+#Menu div{
+    float:left;
+    width:25%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #07dfb4;
+    text-align:center;
+}
+#Menu div:hover{
+        background-color: #07d1b4;
+}
