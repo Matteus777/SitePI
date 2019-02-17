@@ -1,4 +1,7 @@
-#Menu div{
+html{
+    height: 100%;
+}
+div.menu{
     float:left;
     width:25%;
     padding-top: 20px;
@@ -6,6 +9,15 @@
     background-color: #07dfb4;
     text-align:center;
 }
-#Menu div:hover{
-        background-color: #07d1b4;
+div.menu:hover{
+        background: #07d1b4;
+        
+}
+div.textos{
+    font-size: 25px;
+}
+body{
+    background: linear-gradient(#07d1b4 , white);
+    min-height: 100%;
+    background-repeat: no-repeat;
 }
