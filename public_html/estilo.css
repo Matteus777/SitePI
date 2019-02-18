@@ -3,21 +3,45 @@ html{
 }
 div.menu{
     float:left;
-    width:25%;
+    width:30%;
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #07dfb4;
     text-align:center;
 }
+#Inicio{
+    float:left;
+    width:10%;
+    padding-top: 20px;
+    padding-bottom:20px;
+    background-color: #07dfb4;
+}
 div.menu:hover{
         background: #07d1b4;
-        
 }
 div.textos{
     font-size: 25px;
+    
 }
 body{
     background: linear-gradient(#07d1b4 , white);
     min-height: 100%;
     background-repeat: no-repeat;
+}
+a{
+    color: inherit;
+}
+#Inicio{
+    background-image: url("img/logo.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#texto1{
+    width: 500px;
+    height: 800px;
+    border: 1px solid white;
+    
+}
+#menuexames{
+    display: none;
 }
