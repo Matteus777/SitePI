@@ -26,17 +26,22 @@
 <body>
 <nav>
   <ul id="menuexames">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Sobre</a></li>
-            <li><a href="#">O que fazemos?</a>
-                <ul>
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="#">SEO</a></li>
-                      <li><a href="#">Design</a></li>                    
-                </ul>
-            </li>
-        <li><a href="#">Links</a></li>
-        <li><a href="#">Contato</a></li>                
+        <li><a href="#">Acuidade Visual</a></li>
+        <li><a href="#">Teste de Ishihara</a></li>
+        <li><a href="#">Aberrometria Wavefront</a></li>            
+        <li><a href="#">Fundo de Olho</a></li>
+        <li><a href="#">Curva de Pressão Intraocular</a></li>
+        <li><a href="#">Ceratometria</a></li>                       
+        <li><a href="#">Ecobiometria Ocular</a></li>
+        <li><a href="#">Gonioscopia</a></li>     
+        <li><a href="#">Paquimetria Ultrassônica</a></li>     
+        <li><a href="#">Topografia de Córnea</a></li>     
+        <li><a href="#">Retinoscopia</a></li>     
+        <li><a href="#">Exame de Visão</a></li>     
+        
+        
+        
+        
 </ul>
     </body>
 </html>

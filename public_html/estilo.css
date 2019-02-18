@@ -30,6 +30,7 @@ body{
 }
 a{
     color: inherit;
+    text-decoration: none;
 }
 #Inicio{
     background-image: url("img/logo.png");
@@ -44,4 +45,5 @@ a{
 }
 #menuexames{
     display: none;
+
 }
