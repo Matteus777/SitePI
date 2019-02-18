@@ -24,7 +24,7 @@
  <![endif]-->   
 </head>
 <body>
-<nav>
+
   <ul id="menuexames">
         <li><a href="#">Acuidade Visual</a></li>
         <li><a href="#">Teste de Ishihara</a></li>
