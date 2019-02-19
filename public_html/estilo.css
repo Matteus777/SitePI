@@ -2,13 +2,7 @@ html{
     height: 100%;
 }
 div.menu{
-    float:left;
-    width:30%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #07dfb4;
-    text-align:center;
-    color: white;
+    
 }
 #Inicio{
     float:left;
@@ -50,14 +44,32 @@ a{
 .dropdown {
   position: relative;
   display: inline-block;
+  float:left;
+  width:30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #07dfb4;
+  text-align:center;
+  color: white;
+}
+
+.dropdown:hover{
+     animation-name: hover;
+        animation-duration: 0.3s;
+        background-color:#07d1b4;
 }
 .dropdown-content{
-  display: none;
   position: absolute;
-  background-color: #4CFFDB;
+  background-color: #4CFFDB33;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  width: 100%;
+  height: 0px;
+  transition-property: height, display;
+  transition-duration: 1s;
+  -webkit-transition:  height 1s;
+  transition-timing-function: linear;
 }
 .dropdown-content a {
   color: black;
@@ -66,12 +78,12 @@ a{
   display: block;
 }
 .dropdown-content a:hover {
-    background-color: white
+    background-color: white;
 }
-.dropdown:hover .dropdown-content {
-  animation-name: lista;
-  animation-duration: 2s;
 
+.dropdown:hover .dropdown-content {
+  display: block;
+  height: 600px;
 }
 
 #menucirurgias{
@@ -84,12 +96,17 @@ a{
   from {background-color: #07dfb4;}
   to {background-color: #07d1b4;}
 }
-
-@keyframes lista{
-    from{display: none;}
-    to{display: block;}
-}
 #acuidade{
     background-image: url("img/acuidade.png");
+}
+.lista {
+   height: 0px;
+   transition-property: height, display;
+  transition-duration: 1s;
+  -webkit-transition:  height 1s;
+  transition-timing-function: linear;
+}
+.lista li{
+    display:none;
 }
 
