@@ -8,6 +8,7 @@ div.menu{
     padding-bottom: 20px;
     background-color: #07dfb4;
     text-align:center;
+    color: white;
 }
 #Inicio{
     float:left;
@@ -17,7 +18,10 @@ div.menu{
     background-color: #07dfb4;
 }
 div.menu:hover{
-        background: #07d1b4;
+        animation-name: hover;
+        animation-duration: 0.3s;
+        background-color:#07d1b4;
+        
 }
 div.textos{
     font-size: 25px;
@@ -43,7 +47,39 @@ a{
     border: 1px solid white;
     
 }
-#menuexames{
-    display: none;
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #4CFFDB;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+    background-color: white
+}
+.dropdown:hover .dropdown-content {
+  animation-name: lista;
+  animation-duration: 2s;
 
+}
+
+@keyframes hover{
+  from {background-color: #07dfb4;}
+  to {background-color: #07d1b4;}
+}
+
+@keyframes lista{
+    from{display: none;}
+    to{display: block;}
 }
