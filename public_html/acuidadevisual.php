@@ -14,10 +14,9 @@
         <br>
         <br>
         <br>
-        <div align="center" style="font-family: tahoma"><h1>Exame de Acuidade Visual</h1>
-            <img src="img/acuidade.png"></div>
-        <div style="font-family: tahoma"><p>Acuidade visual é a capacidade do olho para distinguir detalhes espaciais, ou seja, identificar o contorno e a forma dos objetos. A acuidade visual depende de fatores ópticos e neurais: da nitidez que a imagem chega na retina, da saúde das células retinianas e da capacidade de interpretação do cérebro.</p></div>
-        
-        
+        <div align="center">Exame de Acuidade Visual</div>
+        <div class="textos"> <p>Acuidade visual é a capacidade do olho para distinguir detalhes espaciais, ou seja, identificar o contorno e a forma dos objetos. A acuidade visual depende de fatores ópticos e neurais: da nitidez que a imagem chega na retina, da saúde das células retinianas e da capacidade de interpretação do cérebro.</p>
+        </div>
+        <div id="acuidade">&nbsp;</div>
     </body>
 </html>
