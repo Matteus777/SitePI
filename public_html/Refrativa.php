@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title> Cirurgia Refrativa - Clinica Bom Olhar</title>
