@@ -10,12 +10,11 @@
             <li><a href="fundo.php">Fundo de Olho</a></li>
             <li><a href="intraocular.php">Curva de Pressão Intraocular</a></li>
             <li><a href="ceratometria.php">Ceratometria</a></li>                       
-            <li><a href="#">Ecobiometria Ocular</a></li>
-            <li><a href="#">Gonioscopia</a></li>     
-            <li><a href="#">Paquimetria Ultrassônica</a></li>     
-            <li><a href="#">Topografia de Córnea</a></li>     
-            <li><a href="#">Retinoscopia</a></li>     
-            <li><a href="#">Exame de Visão</a></li>          
+            <li><a href="ecobiometria.php">Ecobiometria Ocular</a></li>
+            <li><a href="gonioscopia.php">Gonioscopia</a></li>     
+            <li><a href="paquimetria.php">Paquimetria Ultrassônica</a></li>     
+            <li><a href="topografia.php">Topografia de Córnea</a></li>     
+            <li><a href="retinoscopia.php">Retinoscopia</a></li>             
         </ul>
     </div>
 </div>

@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title> Cirurgia Refrativa - Clinica Bom Olhar</title>
@@ -10,6 +11,8 @@
         
     </head>
     <body>
+        <?php require_once 'rodape.php'?>
+        <?php require_once 'menu.php'?>
         <br>
         <br>
         <br>

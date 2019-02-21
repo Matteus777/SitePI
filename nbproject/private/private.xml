@@ -4,6 +4,7 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/jquery3.3.1.js</file>
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Javascript.js</file>
 =======
@@ -17,6 +18,15 @@
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/estilo.css</file>
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/CirurgiaRefrativa.php</file>
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/menu.php</file>
+=======
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/CirurgiaCatarata.php</file>
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/quemsomos.php</file>
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/CirurgiaRefrativa.php</file>
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/acuidadevisual.php</file>
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/jquery3.3.1.js</file>
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Javascript.js</file>
+            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/estilo.css</file>
+>>>>>>> e7fd0825a2070014f2a053aaa119de47090d6460
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/index.php</file>
         </group>
     </open-files>

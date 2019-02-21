@@ -21,20 +21,31 @@ div.textos{
     font-size: 25px;
     
 }
-#fundo img{
+
+#fundo{
+    background-image: url("img/eyes.png");
+    background-size: 100%;
     margin-top: 10px;
-    margin-left: 240px;
-    width: 1080px;
+    background-repeat: no-repeat;
+    width: 100%;
     height:720px;
     box-shadow: 10px 10px 100px;
 }
-
+#fundo ,img{
+    position:absolute;
+}
+#fundo h1{
+    margin-left:120px;
+}
+#fundo{
+    position:relative
+}
 a{
     color: inherit;
     text-decoration: none;
 }
 #Inicio{
-    background-image: url("img/logo.png");
+    background-image: url("img/logoescrito.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -87,7 +98,7 @@ a{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 550px;
+  height: 500px;
 }
 @keyframes hover{
   from {background-color: #07dfb4;}
