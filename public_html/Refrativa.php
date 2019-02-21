@@ -1,9 +1,10 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title> Cirurgia Refrativa - Clinica Bom Olhar</title>
         <meta charset="UTF-8">        
         <link href="estilo.css" rel="stylesheet" type="text/css"/>
-        <?php require_once ("/xampp/htdocs/t171/SitePI/public_html/index.php")?>
+        <?php require_once ("/xampp/htdocs/t171/SitePI/public_html/menu.php")?>
         <style>
             h1, p {font-family: tahoma;}
         </style>
