@@ -10,6 +10,8 @@
         
     </head>
     <body>
+        <?php require_once 'rodape.php'?>
+        <?php require_once 'menu.php'?>
         <br>
         <br>
         <br>

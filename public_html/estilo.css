@@ -22,13 +22,22 @@ div.textos{
     
 }
 #fundo img{
+    position:absolute;
     margin-top: 10px;
     margin-left: 240px;
     width: 1080px;
     height:720px;
     box-shadow: 10px 10px 100px;
 }
-
+#fundo ,img{
+    position:absolute;
+}
+#fundo h1{
+    margin-left:120px;
+}
+#fundo{
+    position:relative
+}
 a{
     color: inherit;
     text-decoration: none;
@@ -87,7 +96,7 @@ a{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 550px;
+  height: 500px;
 }
 @keyframes hover{
   from {background-color: #07dfb4;}
@@ -142,3 +151,4 @@ footer{
     height: 300px;
     border: 1px solid red;
 }
+.show{display:block};
