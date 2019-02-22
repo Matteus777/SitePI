@@ -10,6 +10,7 @@
 </style>
     </head>
     <body>
+        <?php require_once 'rodape.php'?>
         <br>
         <br>
         <br>

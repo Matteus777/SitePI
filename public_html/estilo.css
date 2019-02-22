@@ -1,8 +1,8 @@
 html{
     height: 100%;
 }
-div.menu{
-    
+div{
+    width: 100%;
 }
 #Inicio{
     float:left;
@@ -10,14 +10,11 @@ div.menu{
     padding-top: 20px;
     padding-bottom:20px;
     background-color: #07dfb4;
+    background-image: url("img/logoescrito.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-div.menu:hover{
-        animation-name: hover;
-        animation-duration: 0.3s;
-        background-color:#07d1b4;
-        
-}
-div.textos{
+.textos{
     font-size: 25px;
     
 }
@@ -25,19 +22,15 @@ div.textos{
 #fundo{
     background-image: url("img/eyes.png");
     background-size: 100%;
-    margin-top: 10px;
+    position:absolute;
+    margin-top: 80px;
     background-repeat: no-repeat;
     width: 100%;
-    height:720px;
+    height: 420px;
 }
 a{
     color: inherit;
     text-decoration: none;
-}
-#Inicio{
-    background-image: url("img/logoescrito.png");
-    background-size: contain;
-    background-repeat: no-repeat;
 }
 #texto1{
     width: 500px;
@@ -128,15 +121,11 @@ a{
   -webkit-transition:  height 0.3s;
   transition-timing-function: ease;
 }
-.dropdown:hover #divcontent{
-    height: 130px;
-}
+
 .lista li{
-  height: 0px;
+  height: 33px;
 }
-.dropdown:hover .lista li{
-    height:auto;
-}
+
 footer{
     background-color: #07d1b4;
     width: 100%;
@@ -164,4 +153,8 @@ footer div{
     width: 100%;
     height: 320px;
     
+}
+body {
+padding: 0 0;
+margin: 0 0;
 }
