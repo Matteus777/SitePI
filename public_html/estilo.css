@@ -74,15 +74,15 @@ a{
   text-decoration: none;
   display: block;
 }
-/*.dropdown-content a:hover {
+.dropdown-content a:hover {
     color:white;
     background-color: #07dfb4;
-}*/
+}
 
-/*.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
   display: block;
   height: 500px;
-}*/
+}
 @keyframes hover{
   from {background-color: #07dfb4;}
   to {background-color: #07d1b4;}
@@ -123,7 +123,7 @@ a{
 }
 
 .lista li{
-  height: 0px;
+  height: 35px;
 }
 
 footer{
