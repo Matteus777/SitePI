@@ -12,11 +12,7 @@
     </head>
     <body>
         <?php require_once 'menu.php'?>
-        <div id="fundo"  ><img src="img/olho.jpg"/></div>
-      
-        
-       
-        
+            <div id="fundo"  >&nbsp; </div>      
     </body>
     </html>
 

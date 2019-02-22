@@ -1,6 +1,11 @@
+include('jquery3_3_1.js');
+
+
 $(document).ready(function(){
-    $("#fundo").click(function(){
-        $("#fundo").hide();
+    $(".dropdown").hover(function(){
+        document.getElementById("myDropdown").classList.toggle("show");
     });
 });
+
+
 
