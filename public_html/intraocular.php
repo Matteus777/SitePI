@@ -18,7 +18,7 @@
         <br>
         <br>
         <br>
-        <div align="center"><h1>Curva de Pressão Intraocular</h1></div>
+        <div align="center" class="textos"><h1>Curva de Pressão Intraocular</h1></div>
         <div align="center"><img src="img/intraocular.png"></div>
         <div class="textos"> <p>Consiste na medição da pressão intra-ocular em diferentes horários ao longo do dia.
 

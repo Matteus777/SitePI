@@ -18,7 +18,7 @@
         <br>
         <br>
         <br>
-        <div align="center"><h1>Teste de Ishihara</h1></div>
+        <div align="center" class="textos"><h1>Teste de Ishihara</h1></div>
         <div align="center"><img src="img/ishihara.png"></div>
         <div class="textos"> <p>O teste de cores de Ishihara é um teste para detecção do daltonismo.
 

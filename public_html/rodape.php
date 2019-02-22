@@ -7,7 +7,7 @@
 
         <div>
 
-            <div id="endereco">
+            <div id="endereco" class="textos">
                 <h3>Endereço</h3>
                 <p>Avenida Dom Bôsco 55, Vila Piloto.</p>
                 <p>Três Lagoas - MS</p>

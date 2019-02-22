@@ -26,7 +26,7 @@ div{
     margin-top: 80px;
     background-repeat: no-repeat;
     width: 100%;
-    height: 420px;
+    height:440px;
 }
 a{
     color: inherit;
@@ -123,11 +123,8 @@ a{
 }
 
 .lista li{
-<<<<<<< HEAD
-  height: 33px;
-=======
   height: 35px;
->>>>>>> 11f2b8a67ead17d215de9494ab2379631158ccc7
+
 }
 
 footer{
