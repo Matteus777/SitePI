@@ -21,20 +21,31 @@ div.textos{
     font-size: 25px;
     
 }
-#fundo img{
+
+#fundo{
+    background-image: url("img/eyes.png");
+    background-size: 100%;
     margin-top: 10px;
-    margin-left: 130px;
-    width: 1080px;
+    background-repeat: no-repeat;
+    width: 100%;
     height:720px;
     box-shadow: 10px 10px 100px;
 }
-
+#fundo ,img{
+    position:absolute;
+}
+#fundo h1{
+    margin-left:120px;
+}
+#fundo{
+    position:relative
+}
 a{
     color: inherit;
     text-decoration: none;
 }
 #Inicio{
-    background-image: url("img/logo.png");
+    background-image: url("img/logoescrito.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -87,7 +98,7 @@ a{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 550px;
+  height: 500px;
 }
 @keyframes hover{
   from {background-color: #07dfb4;}
@@ -128,11 +139,39 @@ a{
   transition-timing-function: ease;
 }
 .dropdown:hover #divcontent{
-    height: 100px;
+    height: 130px;
 }
 .lista li{
   height: 0px;
 }
 .dropdown:hover .lista li{
-    height:35px;
+    height:auto;
+}
+footer{
+    background-color: #07d1b4;
+    width: 100%;
+    height: 300px;
+    color: white;
+    padding: 12px 250px;
+    position: static;
+    bottom: 0px;
+           
+}
+
+footer div{
+    float: left;
+}
+
+#endereco{
+    width:700px;
+}
+#maps{
+    margin-top: 25px;
+}
+
+#rodape{
+    background-color: white;
+    width: 100%;
+    height: 320px;
+    
 }
