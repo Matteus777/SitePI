@@ -123,7 +123,11 @@ a{
 }
 
 .lista li{
+<<<<<<< HEAD
   height: 33px;
+=======
+  height: 35px;
+>>>>>>> 11f2b8a67ead17d215de9494ab2379631158ccc7
 }
 
 footer{
