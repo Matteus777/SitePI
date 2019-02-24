@@ -12,7 +12,7 @@
     </head>
     <body>
         <?php require_once 'menu.php'?>
-            <div id="fundo"  >&nbsp; </div>      
+        <div id="fundo"  >&nbsp; </div>      
     </body>
     </html>
 

@@ -1,21 +1,12 @@
 html{
     height: 100%;
 }
-div.menu{
-    
-}
 #Inicio{
     float:left;
     width:10%;
     padding-top: 20px;
     padding-bottom:20px;
     background-color: #07dfb4;
-}
-div.menu:hover{
-        animation-name: hover;
-        animation-duration: 0.3s;
-        background-color:#07d1b4;
-        
 }
 div.textos{
     font-size: 25px;
@@ -31,14 +22,8 @@ div.textos{
     height:720px;
     box-shadow: 10px 10px 100px;
 }
-#fundo ,img{
-    position:absolute;
-}
 #fundo h1{
     margin-left:120px;
-}
-#fundo{
-    position:relative
 }
 a{
     color: inherit;
@@ -73,6 +58,7 @@ a{
      background-color:#07d1b4;
 }
 .dropdown-content{
+  display: none;
   position: absolute;
   background-color: #4CFFDBaa;
   min-width: 160px;
@@ -91,15 +77,15 @@ a{
   text-decoration: none;
   display: block;
 }
-.dropdown-content a:hover {
+/*.dropdown-content a:hover {
     color:white;
     background-color: #07dfb4;
-}
+}*/
 
-.dropdown:hover .dropdown-content {
+/*.dropdown:hover .dropdown-content {
   display: block;
   height: 500px;
-}
+}*/
 @keyframes hover{
   from {background-color: #07dfb4;}
   to {background-color: #07d1b4;}
@@ -116,14 +102,6 @@ a{
 .lista {
    display: none;
     height: 0%;
-   transition-property: height, display;
-  transition-duration: 1s;
-  -webkit-transition:  height 1s, display 1s;
-  transition-timing-function: linear;
-}
-.dropdown:hover .lista{
-    display: block;
-    height: 100%;
 }
 #divcontent{
   position: absolute;
@@ -138,15 +116,6 @@ a{
   -webkit-transition:  height 0.3s;
   transition-timing-function: ease;
 }
-.dropdown:hover #divcontent{
-    height: 130px;
-}
-.lista li{
-  height: 0px;
-}
-.dropdown:hover .lista li{
-    height:auto;
-}
 footer{
     background-color: #07d1b4;
     width: 100%;
@@ -156,6 +125,9 @@ footer{
     position: static;
     bottom: 0px;
            
+}
+#menuexames{
+    height: 130px;
 }
 
 footer div{
