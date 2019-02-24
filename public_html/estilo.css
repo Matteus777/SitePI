@@ -1,42 +1,58 @@
 html{
     height: 100%;
 }
+<<<<<<< HEAD
+=======
+div{
+    width: 100%;
+}
+>>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
 #Inicio{
     float:left;
     width:10%;
     padding-top: 20px;
     padding-bottom:20px;
     background-color: #07dfb4;
+    background-image: url("img/logoescrito.png");
+    background-size: contain;
+    background-repeat: no-repeat;
 }
+<<<<<<< HEAD
 div.textos{
+=======
+.textos{
+    font-family:tahoma;
+>>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
     font-size: 25px;
     
 }
-
+h{
+ font-family:tahoma;   
+}
 #fundo{
     background-image: url("img/eyes.png");
     background-size: 100%;
-    margin-top: 10px;
+    position:absolute;
+    margin-top: 80px;
     background-repeat: no-repeat;
     width: 100%;
+<<<<<<< HEAD
     height:720px;
     box-shadow: 10px 10px 100px;
 }
 #fundo h1{
     margin-left:120px;
+=======
+    height:440px;
+>>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
 }
 a{
     color: inherit;
     text-decoration: none;
 }
-#Inicio{
-    background-image: url("img/logoescrito.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-}
 #texto1{
-    width: 500px;
-    height: 800px;
+    position:absolute;
+    margin-top:500px;
     border: 1px solid white;
     
 }
@@ -62,7 +78,6 @@ a{
   position: absolute;
   background-color: #4CFFDBaa;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   width: 100%;
   height: 0px;
@@ -100,8 +115,17 @@ a{
     background-image: url("img/acuidade.png");
 }
 .lista {
+<<<<<<< HEAD
    display: none;
     height: 0%;
+=======
+   display: block;
+   height: 0%;
+   transition-property: height, display;
+  transition-duration: 1s;
+  -webkit-transition:  height 1s, display 1s;
+  transition-timing-function: linear;
+>>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
 }
 #divcontent{
   position: absolute;
@@ -116,6 +140,21 @@ a{
   -webkit-transition:  height 0.3s;
   transition-timing-function: ease;
 }
+<<<<<<< HEAD
+=======
+
+.lista li{
+    display:block;
+    visibility: hidden;
+    height:0px;
+    transition-property: height, visibility;
+    transition-duration: 0.3s;
+    transition-delay:1s;
+    -webkit-transition:  height 1s;
+  transition-timing-function: ease; 
+}
+
+>>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
 footer{
     background-color: #07d1b4;
     width: 100%;
@@ -136,9 +175,7 @@ footer div{
 
 #endereco{
     width:700px;
-}
-#maps{
-    margin-top: 25px;
+    float:left;
 }
 
 #rodape{
@@ -146,4 +183,19 @@ footer div{
     width: 100%;
     height: 320px;
     
+}
+body {
+padding: 0 0;
+margin: 0 0;
+}
+.dropdown:hover #divcontent{
+    height: 120px;
+}
+.dropdown:hover .lista li{
+   visibility:visible;
+    height:35px;
+   transition-property: height, display;
+  transition-duration: 0.3s;
+  -webkit-transition:  height 0.3s;
+  transition-timing-function: ease;
 }
