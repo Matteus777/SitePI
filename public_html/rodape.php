@@ -1,9 +1,9 @@
 <footer id="footer">
         <div id="endereco" class="textos2">
             <h3>Endereço</h3>
-            <p>Avenida Dom Bôsco 55, Vila Piloto.</p>
-            <p>Três Lagoas - MS</p>
-            <p>CEP: 79612-110</p>
+            <p class="nao">Avenida Dom Bôsco 55, Vila Piloto.</p>
+            <p class="nao">Três Lagoas - MS</p>
+            <p class="nao">CEP: 79612-110</p>
             <h3>Contato</h3>
             <p>Telefone: 3435-1221</p>
             <p>E-mail: clinicabomolhar@gmail.com</p>
