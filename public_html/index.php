@@ -22,14 +22,9 @@
     <li>Comprometimento;</li>
     <li>Responsabilidade;</li>
     <li>Ética;</li>
-<<<<<<< HEAD
     </ul>    
             </div>
-=======
 </ul>
-                       
-                        
->>>>>>> c16fa93fd33a3492e47ecf5b4b224243967992fa
     </body>
     </html>
 

@@ -21,8 +21,8 @@
 <div class="dropdown" id="Cirurgias">Cirurgias
     <div class="dropdown-content" id="divcontent">
         <ul id="menucirurgias" class="lista" >
-            <li><a href="#">Cirurgia de Catarata</a></li>       
-            <li><a href="#">Cirurgia Refrativa</a></li>  
+            <li><a href="Catarata.php#">Cirurgia de Catarata</a></li>       
+            <li><a href="Refrativa.php#">Cirurgia Refrativa</a></li>  
         </ul>  
     </div>
 </div>
