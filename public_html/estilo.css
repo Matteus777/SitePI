@@ -8,7 +8,7 @@ div{
     float:left;
     width:20%;
     padding-top: 20px;
-    padding-bottom:20px;
+    padding-bottom:21px;
     background-color: #07dfb4;
     background-image: url("img/logoescrito.png");
     background-size: contain;
@@ -19,7 +19,8 @@ div{
 .textos{
     font-family:tahoma;
     font-size: 25px;
-h{
+}
+    h{
  font-family:tahoma;   
 }
 #fundo{
@@ -92,9 +93,10 @@ a{
   display: block;
   height: 500px;
 }
+
 @keyframes hover{
-  from {background-color: #07dfb4;}
-  to {background-color: #07d1b4;}
+  from{ background-color: #07dfb4;} 
+  to{ background-color: #07d1b4;}
 }
 
 @keyframes lista{
@@ -113,6 +115,7 @@ a{
   -webkit-transition:  height 1s, display 1s;
   transition-timing-function: linear;
 }
+
 #divcontent{
   position: absolute;
   background-color: #4CFFDBaa;
@@ -190,4 +193,7 @@ margin: 0 0;
 }
 .textos2{
     font-family: tahoma;
+}
+p:not(.nao){
+    text-align:center;
 }
