@@ -1,8 +1,8 @@
 html{
     height: 100%;
 }
-div.menu{
-    
+div{
+    width: 100%;
 }
 #Inicio{
     float:left;
@@ -10,39 +10,34 @@ div.menu{
     padding-top: 20px;
     padding-bottom:20px;
     background-color: #07dfb4;
-}
-div.menu:hover{
-        animation-name: hover;
-        animation-duration: 0.3s;
-        background-color:#07d1b4;
-        
-}
-div.textos{
-    font-size: 25px;
-    
-}
-#fundo{
-    background-image: url("img/eyes.png");
-    background-size: 100%;
-    margin-top: 10px;
-    background-repeat: no-repeat;
-    width: 100%;
-    height:720px;
-    box-shadow: 10px 10px 100px;
-}
-
-a{
-    color: inherit;
-    text-decoration: none;
-}
-#Inicio{
     background-image: url("img/logoescrito.png");
     background-size: contain;
     background-repeat: no-repeat;
 }
+.textos{
+    font-family:tahoma;
+    font-size: 25px;
+    
+}
+h{
+ font-family:tahoma;   
+}
+#fundo{
+    background-image: url("img/eyes.png");
+    background-size: 100%;
+    position:absolute;
+    margin-top: 80px;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:440px;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
 #texto1{
-    width: 500px;
-    height: 800px;
+    position:absolute;
+    margin-top:500px;
     border: 1px solid white;
     
 }
@@ -67,7 +62,6 @@ a{
   position: absolute;
   background-color: #4CFFDBaa;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   width: 100%;
   height: 0px;
@@ -89,7 +83,7 @@ a{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 550px;
+  height: 500px;
 }
 @keyframes hover{
   from {background-color: #07dfb4;}
@@ -105,16 +99,12 @@ a{
     background-image: url("img/acuidade.png");
 }
 .lista {
-   display: none;
-    height: 0%;
+   display: block;
+   height: 0%;
    transition-property: height, display;
   transition-duration: 1s;
   -webkit-transition:  height 1s, display 1s;
   transition-timing-function: linear;
-}
-.dropdown:hover .lista{
-    display: block;
-    height: 100%;
 }
 #divcontent{
   position: absolute;
@@ -129,18 +119,56 @@ a{
   -webkit-transition:  height 0.3s;
   transition-timing-function: ease;
 }
-.dropdown:hover #divcontent{
-    height: 130px;
-}
+
 .lista li{
-  height: 0px;
+    display:block;
+    visibility: hidden;
+    height:0px;
+    transition-property: height, visibility;
+    transition-duration: 0.3s;
+    transition-delay:1s;
+    -webkit-transition:  height 1s;
+  transition-timing-function: ease; 
 }
-.dropdown:hover .lista li{
-    height:auto;
-}
+
 footer{
-    background-color: red;
+    background-color: #07d1b4;
     width: 100%;
     height: 300px;
-    border: 1px solid red;
+    color: white;
+    padding: 12px 250px;
+    position: static;
+    bottom: 0px;
+           
+}
+
+footer div{
+    float: left;
+}
+
+#endereco{
+    width:700px;
+    float:left;
+}
+
+#rodape{
+    background-color: white;
+    width: 100%;
+    height: 320px;
+    
+}
+body {
+padding: 0 0;
+margin: 0 0;
+}
+.dropdown:hover #divcontent{
+    height: 120px;
+}
+.dropdown:hover .lista li{
+   visibility:visible;
+    height:35px;
+   transition-property: height, display;
+  transition-duration: 0.3s;
+  -webkit-transition:  height 0.3s;
+  transition-timing-function: ease;
 }
