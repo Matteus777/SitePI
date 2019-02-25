@@ -11,9 +11,15 @@
     </head>
     <body>
         <?php require_once 'menu.php'?>
+               <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
         <div align="center"><h1>Teste de Ishihara</h1></div>
         <div align="center"><img src="img/ishihara.png"></div>
-        <div class="textos"> <p>O teste de cores de Ishihara é um teste para detecção do daltonismo.
+        <div class="textos"> <p class="textos">O teste de cores de Ishihara é um teste para detecção do daltonismo.
 
 Recebeu esse nome devido ao Dr. Shinobu Ishihara (1879-1963), um professor da Universidade de Tóquio, que foi o criador desses testes em 1917.
 
