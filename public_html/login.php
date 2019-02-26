@@ -8,10 +8,13 @@
     </head>
     <body>
         <?php require_once 'menu.php'?>
+        
         <div id="loginverdadeiro">
-        <div align="center" class="textos2" >Login:<input type="text" name="login"></div>
-        <div align="center" class="textos2">Senha:<input type="text" name="senha"></div>
-        <div align="center" class="textos">Login</div>
-        </div>       
+        <div id="loginsenha">
+            <div align="center" class="textos">Login:<input type="text" name="login"></div>
+            <div align="center" class="textos">Senha:<input type="text" name="senha"></div>
+        </div> 
+        </div>    
+        <div id="botaologin" align="center" class="textos">Login</div>
         </body>
 </html>

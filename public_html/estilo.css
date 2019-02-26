@@ -144,13 +144,24 @@ a{
   transition-timing-function: ease; 
 }
 #loginverdadeiro{
-    margin-top: 100px;
+    margin-top: 15px;
+    margin-bottom: 50px;
     color:white;
-    
+    float: left;
+    height: 18%;
+    background-color: #07dfb4    
+      
 }
-    #botaologin{
-        background-color:#07dfb4
+#loginsenha{
+    margin-top: 30px;
         
+}
+
+#botaologin{
+        margin-top: 20px;
+        background-color: #07dfb4;
+        color: white; 
+                
     }  
 
 footer{
