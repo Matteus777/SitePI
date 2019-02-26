@@ -208,3 +208,14 @@ margin: 0 0;
 p:not(.nao){
     text-align:center;
 }
+select, .inputs{
+    padding: 12px 20px;
+    }
+#forms{
+    float:top;
+}
+.forms2{
+    margin: 10px;
+    padding: 12px 50px;
+    
+}
