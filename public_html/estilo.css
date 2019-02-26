@@ -62,6 +62,9 @@ a{
      animation-duration: 0.3s;
      background-color:#07d1b4;
 }
+#cadastro{
+border:1px solid red;    
+}
 
 
 .dropdown:hover{
@@ -94,7 +97,7 @@ a{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 500px;
+  height: 450px;
 }
 
 @keyframes hover{
@@ -190,10 +193,30 @@ footer{
     float:left;
     
 }
-/*#rodape{
-    width: 100%;
+#imagem{
+    background-image: url("img/usuario.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width:150px;
+    height:150px;
+    margin:15px;
+    border: 1px solid red;
+    float:left;
+    
+}
+.limpafloat{
+    clear:both;
+}
+#dados{
+    border: 1px solid blue;
+    width: auto;
     float: left;
-}*/
+}
+#sopronome{
+    float:left;
+    width: 300px;
+    margin-top: 140px;
+}
 footer iframe{
     float: right;
 margin-top: 15px;
@@ -232,6 +255,12 @@ p:not(.nao){
     text-align:center;
 }
 
+<<<<<<< HEAD
+.cadastros{
+    margin-top: 15px;
+}
+=======
 header{
     width: 100%;
 }
+>>>>>>> 53dd3125226a9e296e74cfefe5acbb80d800d510
