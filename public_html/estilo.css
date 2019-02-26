@@ -16,6 +16,8 @@ div{
     background-repeat: no-repeat;
     
 }
+
+
 .textos{
     font-family:tahoma;
     font-size: 25px;
@@ -64,6 +66,7 @@ a{
 border:1px solid red;    
 }
 
+
 .dropdown:hover{
      animation-name: hover;
      animation-duration: 0.3s;
@@ -94,7 +97,7 @@ border:1px solid red;
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 500px;
+  height: 450px;
 }
 
 @keyframes hover{
@@ -143,6 +146,15 @@ border:1px solid red;
     -webkit-transition:  height 1s;
   transition-timing-function: ease; 
 }
+#loginverdadeiro{
+    margin-top: 100px;
+    color:white;
+    
+}
+    #botaologin{
+        background-color:#07dfb4
+        
+    }  
 
 footer{
     margin: 0 0;
@@ -170,10 +182,30 @@ footer{
     float:left;
     
 }
-/*#rodape{
-    width: 100%;
+#imagem{
+    background-image: url("img/usuario.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width:150px;
+    height:150px;
+    margin:15px;
+    border: 1px solid red;
+    float:left;
+    
+}
+.limpafloat{
+    clear:both;
+}
+#dados{
+    border: 1px solid blue;
+    width: auto;
     float: left;
-}*/
+}
+#sopronome{
+    float:left;
+    width: 300px;
+    margin-top: 140px;
+}
 footer iframe{
     float: right;
 margin-top: 15px;
@@ -212,6 +244,12 @@ p:not(.nao){
     text-align:center;
 }
 
+<<<<<<< HEAD
 .cadastros{
     margin-top: 15px;
 }
+=======
+header{
+    width: 100%;
+}
+>>>>>>> 53dd3125226a9e296e74cfefe5acbb80d800d510
