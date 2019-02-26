@@ -12,8 +12,16 @@ and open the template in the editor.
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <?php require_once'menu.php'?>
-        <div id="imagem" class="textos"><img src="img/usuario.png"/>Nome</div>
-        <?php require_once'rodape.php'?>
+        <?php require_once'menu.php' ?>
+        <div id="dados">
+            <div id="imagem" class="textos">
+
+            </div>
+            <div id="sopronome" class="textos">
+                Nome Completo da Pessoa
+            </div>
+        </div>
+        <div class="limpafloat"></div>
+        <?php require_once'rodape.php' ?>
     </body>
 </html>

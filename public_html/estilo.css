@@ -179,15 +179,29 @@ footer{
     float:left;
     
 }
-#imagem img{
-    width: 150px;
+#imagem{
+    background-image: url("img/usuario.png");
+    background-repeat:no-repeat;
+    background-size: 100%;
+    width:150px;
     height:150px;
-    border: 5px solid #07dfb4;
     margin:15px;
+    border: 1px solid red;
+    float:left;
     
 }
-#imagem{
-    border: 1px solid red;
+.limpafloat{
+    clear:both;
+}
+#dados{
+    border: 1px solid blue;
+    width: auto;
+    float: left;
+}
+#sopronome{
+    float:left;
+    width: 300px;
+    margin-top: 140px;
 }
 footer iframe{
     float: right;
