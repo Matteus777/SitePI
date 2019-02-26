@@ -12,9 +12,6 @@
     </head>
     <body>
         <?php require_once 'menu.php'?>
-<<<<<<< HEAD
-        <div id="fundo"  >&nbsp; </div>      
-=======
             <div id="fundo">&nbsp;</div>
             <div id="texto1"><h2>História</h2>
 
@@ -25,15 +22,8 @@
     <li>Comprometimento;</li>
     <li>Responsabilidade;</li>
     <li>Ética;</li>
-<<<<<<< HEAD
     </ul>    
             </div>
-=======
-</ul>
-                       
-                        
->>>>>>> c16fa93fd33a3492e47ecf5b4b224243967992fa
->>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
     </body>
     </html>
 

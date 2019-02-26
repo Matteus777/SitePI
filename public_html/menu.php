@@ -26,8 +26,5 @@
         </ul>  
     </div>
 </div>
-<<<<<<< HEAD
 <div class="dropdown" id="Login">Login </div>
-=======
-<div class="dropdown" id="Login">Login </div>
->>>>>>> 735ab618ebd07a28b57619e6cfe59f166cfaa65f
+
