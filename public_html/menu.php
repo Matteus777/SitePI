@@ -1,9 +1,9 @@
 <a href="index.php">
     <div class="dropdown" id="Inicio">&nbsp;</div>
 </a>
-<div class="dropdown" id="Exames">Exames
-    <div class="dropdown-content">
-        <ul id="menuexames" class="lista">
+<div class="dropdown textos2" id="Exames" >Exames
+    <div class="dropdown-content textos2">
+        <ul id="menuexames" class="lista textos2">
             <li><a href="acuidadevisual.php">Acuidade Visual</a></li>
             <li><a href="ishihara.php">Teste de Ishihara</a></li>
             <li><a href="wavefront.php">Aberrometria Wavefront</a></li>            
@@ -18,12 +18,14 @@
         </ul>
     </div>
 </div>
-<div class="dropdown" id="Cirurgias">Cirurgias
-    <div class="dropdown-content" id="divcontent">
-        <ul id="menucirurgias" class="lista" >
-            <li><a href="#">Cirurgia de Catarata</a></li>       
-            <li><a href="#">Cirurgia Refrativa</a></li>  
+<div class="dropdown textos2" id="Cirurgias">Cirurgias
+    <div class="dropdown-content textos2" id="divcontent">
+        <ul id="menucirurgias" class="lista textos2">
+            <li><a href="Catarata.php">Cirurgia de Catarata</a></li>       
+            <li><a href="Refrativa.php">Cirurgia Refrativa</a></li>  
         </ul>  
     </div>
 </div>
-<div class="dropdown" id="Login">Login </div>
+<a href="agendar.php"><div class="dropdown textos2" id="Agendar">Agendar</div>
+</a>
+    <div class="dropdown textos2" id="Login">Login </div>
