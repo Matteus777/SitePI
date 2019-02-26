@@ -91,7 +91,7 @@ a{
 
 .dropdown:hover .dropdown-content {
   display: block;
-  height: 500px;
+  height: 450px;
 }
 
 @keyframes hover{
@@ -167,10 +167,16 @@ footer{
     float:left;
     
 }
-/*#rodape{
-    width: 100%;
-    float: left;
-}*/
+#imagem img{
+    width: 150px;
+    height:150px;
+    border: 5px solid #07dfb4;
+    margin:15px;
+    
+}
+#imagem{
+    border: 1px solid red;
+}
 footer iframe{
     float: right;
 margin-top: 15px;

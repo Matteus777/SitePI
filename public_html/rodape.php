@@ -5,8 +5,8 @@
             <p class="nao">Três Lagoas - MS</p>
             <p class="nao">CEP: 79612-110</p>
             <h3>Contato</h3>
-            <p>Telefone: 3435-1221</p>
-            <p>E-mail: clinicabomolhar@gmail.com</p>
+            <p class="nao">Telefone: 3435-1221</p>
+            <p class="nao">E-mail: clinicabomolhar@gmail.com</p>
             </div>
         <div id="convenios" class="textos2">     
             </div>

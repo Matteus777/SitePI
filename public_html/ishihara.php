@@ -26,8 +26,8 @@ Recebeu esse nome devido ao Dr. Shinobu Ishihara (1879-1963), um professor da Un
 O exame consiste na exibição de uma série de cartões coloridos, cada um contendo vários círculos feitos de cores ligeiramente diferentes das cores daqueles situados nas proximidades. Seguindo o mesmo padrão, alguns círculos estão agrupados no meio do cartão de forma a exibir um número que somente será visível pelas pessoas que possuirem visão normal.
 
 Ao todo são exibidas 32 placas para identificação dos algarismos ocultos entre os círculos. O número de acertos pode variar conforme o grau e o tipo de daltonismo.</p>
-        <?php require_once 'rodape.php'?>
-        </div>
         
+        </div>
+        <?php require_once 'rodape.php'?>
     </body>
 </html>
