@@ -60,6 +60,9 @@ a{
      animation-duration: 0.3s;
      background-color:#07d1b4;
 }
+#cadastro{
+border:1px solid red;    
+}
 
 .dropdown:hover{
      animation-name: hover;
@@ -207,4 +210,8 @@ margin: 0 0;
 }
 p:not(.nao){
     text-align:center;
+}
+
+.cadastros{
+    margin-top: 15px;
 }
