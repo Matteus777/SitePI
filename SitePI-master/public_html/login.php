@@ -10,11 +10,11 @@
         <?php require_once 'menu.php'?>
         
         <div id="loginverdadeiro">
-            <div id="logologin">&nbsp;</div>
-            <div id="login1" class="textos2">Usuario:<input type="text"></div>
-            <div id="senha" class="textos2">Senha:<input type="password"></div>
-            <div id="botaologin" class="textos2">Login</div>
+        <div id="loginsenha">
+            <div align="center" class="textos">Login:<input type="text" name="login"></div>
+            <div align="center" class="textos">Senha:<input type="text" name="senha"></div>
+        </div> 
         </div>    
-        
+        <div id="botaologin" align="center" class="textos">Login</div>
         </body>
 </html>
