@@ -6,14 +6,24 @@ class Funcionario{
     private $cpf;
     private $telefone;
     private $sala;
-    function __construct($nome, $email, $cpf, $telefone, $sala) {
+    private $senha;
+    function __construct($nome, $email, $cpf, $telefone, $sala,$senha) {
         $this->nome = $nome;
         $this->email = $email;
         $this->cpf = $cpf;
         $this->telefone = $telefone;
         $this->sala = $sala;
+        $this->senha = $senha;
     }
-    function getId() {
+    function getSenha() {
+        return $this->senha;
+    }
+
+    function setSenha($senha) {
+        $this->senha = $senha;
+    }
+
+        function getId() {
         return $this->id;
     }
 

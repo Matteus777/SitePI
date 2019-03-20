@@ -8,8 +8,9 @@ class Cliente{
     private $sexo;
     private $idade;
     private $senha;
+    private $logado;
     
-    function __construct($nome, $email, $cpf, $telefone, $sexo, $idade, $senha) {
+    function __construct($nome = null, $email=null, $cpf=null, $telefone=null, $sexo=null, $idade=null, $senha=null) {
         $this->nome = $nome;
         $this->email = $email;
         $this->cpf = $cpf;

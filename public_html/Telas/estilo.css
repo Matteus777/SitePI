@@ -61,8 +61,18 @@ a{
      animation-duration: 0.3s;
      background-color:#07d1b4;
 }
-#cadastro{
-border:1px solid red;    
+.cadastros{
+margin-left: 10px;
+}
+#submit{
+    background-color:#07d1b4;
+    color:white;
+    margin-top:10px;
+    margin-left:10px;
+    text-align: center;;
+    width:100px;
+    height:25px;
+    font-size: 20;
 }
 
 

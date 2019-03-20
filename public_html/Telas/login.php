@@ -1,4 +1,3 @@
-
 <html>
     <head>
         <title>Login</title>
@@ -8,12 +7,20 @@
     </head>
     <body>
         <?php require_once 'menu.php'?>
-        
         <div id="loginverdadeiro">
             <div id="logologin">&nbsp;</div>
-            <div id="login1" class="textos2">Usuario:<input type="text"></div>
-            <div id="senha" class="textos2">Senha:<input type="password"></div>
-            <div id="botaologin" class="textos2">Login</div>
+            <form action="../Classes/logarCliente.php?logar" method="POST">
+            <div id="login1" class="textos2">Usuario:<input type="text" name="txtUsuario"></div>
+            <div id="senha" class="textos2">Senha:<input type="password" name="txtSenha"></div>
+            <div id="botaologin" class="textos2" onclick= "javascript:this.parentNode.submit();">Login</div>
+            </form>
+                <?php
+        if(isset($_REQUEST['inseriu'])){
+            echo('<script> alert("Usuário cadastrado com sucesso");</script>');
+        }
+        
+        
+        ?>
         </div>    
         
         </body>
