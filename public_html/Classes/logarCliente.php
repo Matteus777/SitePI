@@ -11,8 +11,8 @@ if( isset( $_REQUEST['logar'] ) ) {
     }else {
     session_start();
     $_SESSION['logado'] = TRUE;
-    $_SESSION['idCliente'] = $cliente->getId;
-    $_SESSION['nomeCliente'] = $cliente->getNome;
+    $_SESSION['idCliente'] = $cliente->getId();
+    $_SESSION['nomeCliente'] = $cliente->getNome();
      header("Location: ../Telas/usuario.php");
     
 }

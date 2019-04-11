@@ -29,7 +29,28 @@
     </div>
     <a href="agendar.php"><div class="dropdown textos2" id="Agendar">Agendar</div>
     </a>
-    <a href="login.php"><div class="dropdown textos2" id="Login">Login</div>
+    <?php
+    if (session_status() != PHP_SESSION_ACTIVE) {
+        session_start();
+    }
+
+    if (isset($_SESSION['logado']) && $_SESSION['logado']) {
+        ?>
+    <div class="dropdown textos2" id="Login"><a href="usuario.php">Seja bem-vindo, <?php echo $_SESSION['nomeCliente']; ?></a>
+            <div class="dropdown-content" id="divcontent2">
+                <ul class="lista textos2">
+                    <li><a href="sair.php">Sair</a></li>
+                </ul>
+            </div>
+        </div>
+     
+    <?php
+} else {
+    ?>
+        <a href="login.php"><div class="dropdown textos2" id="Login">Login</div>
+        <?php
+    }
+    ?>
     </a>
 </header>
 <div style="clear: both;"></div>

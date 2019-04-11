@@ -4,19 +4,7 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/Conexao.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/ClienteDAO.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/FuncionarioDAO.php</file>
             <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Telas/Cadastro.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Telas/ceratometria.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/Funcionario.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/inserirCliente.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/Cliente.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Telas/login.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Telas/fundo.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Telas/Catarata.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/AgendaDAO.php</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Telas/estilo.css</file>
-            <file>file:/C:/xampp/htdocs/t171/SitePI/public_html/Classes/Agenda.php</file>
         </group>
     </open-files>
 </project-private>
