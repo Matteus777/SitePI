@@ -15,8 +15,6 @@ div{
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
 .textos{
     font-family:tahoma;
     font-size: 25px;
@@ -73,6 +71,10 @@ margin-left: 10px;
     width:100px;
     height:25px;
     font-size: 20;
+}
+.forms2{
+    margin-bottom:80px;
+    
 }
 
 
@@ -325,4 +327,21 @@ header{
 }
 .dropdown:hover #divcontent2{
     height: 70px;
+}
+#forms {
+    text-align: left;
+    border: 8px solid #4CFFDBaa;
+    padding: 10px;
+    margin: 5px;
+    width: auto;
+    font-family: Verdana;
+}
+#servico{
+    width: auto;
+}
+#horario{
+    width:auto;
+}
+#data{
+    width:auto;
 }

@@ -2,14 +2,24 @@
 class Agenda{
     private $id;
     private $codDoutor;
-    private $codProcedimento;
+    private $codServico;
     private $codPaciente;
     private $data;
-    function __construct($codDoutor, $codProcedimento, $codPaciente, $data) {
-        $this->codDoutor = $codDoutor;
-        $this->codProcedimento = $codProcedimento;
-        $this->codPaciente = $codPaciente;
+    private $horario;
+    
+    function getHorario() {
+        return $this->horario;
+    }
+
+    function setHorario($horario) {
+        $this->horario = $horario;
+    }
+
+        function __construct($codServico = null, $data = null, $horario = null) {
+        $this->codServico = $codServico;
         $this->data = $data;
+        $this->horario = $horario;
+       
     }
     function getId() {
         return $this->id;
@@ -19,8 +29,8 @@ class Agenda{
         return $this->codDoutor;
     }
 
-    function getCodProcedimento() {
-        return $this->codProcedimento;
+    function getCodServico() {
+        return $this->codServico;
     }
 
     function getCodPaciente() {
@@ -39,8 +49,8 @@ class Agenda{
         $this->codDoutor = $codDoutor;
     }
 
-    function setCodProcedimento($codProcedimento) {
-        $this->codProcedimento = $codProcedimento;
+    function setCodServico($codServico) {
+        $this->codProcedimento = $codServico;
     }
 
     function setCodPaciente($codPaciente) {

@@ -1,3 +1,9 @@
+<?php
+    include_once '../Classes/Agenda.php';
+    include_once '../Classes/AgendaDAO.php';
+    include_once '../Classes/Conexao.php';
+    
+?>
 <!DOCTYPE html>
 <!--
 To change this license header, choose License Headers in Project Properties.
@@ -17,18 +23,44 @@ and open the template in the editor.
             session_start();
         }
         
-        if( isset($_SESSION['logado'])&& $_SESSION['logado']){
+        if( isset($_SESSION['logado']) && $_SESSION['logado']){
             
         
     ?>
         <?php require_once'menu.php' ?>
         <div id="dados">
-            <div id="imagem" class="textos">
+            <?php
+            $lista = AgendaDAO::getAgenda($_SESSION['nomeCliente']);
+            if (count($lista) == 0) {
+                echo '<h2>Nenhuma consulta cadastrada!</h2>';
+            } else {
+                ?>
 
-            </div>
-            <div id="sopronome" class="textos">
-                Seja bem-vindo, <?php echo $_SESSION['nomeCliente']; ?>
-            </div>
+                <table>
+                    <tr>
+                        <th>Código</th>
+                        <th>Serviço</th>
+                        <th>Data</th>
+                        <th>Horário</th>
+                    </tr>
+                    <?php
+                    foreach ($lista as $ped) {
+                        ?>
+                        <tr>
+                            <td><?php echo $ped->getId(); ?></td>
+                            <td><?php echo $ped->getCodServico(); ?></td>
+                            <td><?php echo $ped->getData(); ?></td>
+                            <td><?php echo $ped->getHorario(); ?></td>
+                           <td><a href="usuario.php?editar&idAgenda=<?php echo $ped->getId(); ?>"><button class="btnVerProdutos"></button></a></td>
+                            
+                        </tr>
+                        <?php
+                    }
+                    ?>
+                </table>
+                <?php
+            }
+            ?>
             <?php
         }
     ?>

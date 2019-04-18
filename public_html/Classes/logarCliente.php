@@ -9,12 +9,12 @@ if( isset( $_REQUEST['logar'] ) ) {
     if($cliente == null){
         echo ('<script> alert=("Usuário não logado");</script>');
     }else {
-    session_start();
-    $_SESSION['logado'] = TRUE;
-    $_SESSION['idCliente'] = $cliente->getId();
-    $_SESSION['nomeCliente'] = $cliente->getNome();
-     header("Location: ../Telas/usuario.php");
+        session_start();
+        $_SESSION['logado'] = TRUE;
+        $_SESSION['idCliente'] = $cliente->getId();
+        $_SESSION['nomeCliente'] = $cliente->getNome();
+         header("Location: ../Telas/usuario.php");
     
-}
+    }
 }
 ?>

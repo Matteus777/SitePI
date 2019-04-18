@@ -2,24 +2,21 @@
 class AgendaDAO{
 public static function inserir($agenda) {
         $sql = "INSERT INTO agenda "
-                . " ( id, codDoutor, codPaciente, codProcedimento,Data"
+                . " ( id, codServico, data, horario, "
                 . " ) VALUES "
                 . " ( '" . $agenda->getId() . "' , "
-                . "   '" . $agenda->getCodDoutor() . "' , "
-                . "   '" . $agenda->getCodPaciente() . "' , "
-                . "   '" . $agenda->getCodProcedimento() . "' , "
+                . "   '" . $agenda->getCodServico() . "' , "
                 . "   '" . $agenda->getData() . "' , "
+                . "   '" . $agenda->getHorario() . "' , "
                 . " )";
-
-        Conexao::executar($sql);
+        return (Conexao::executar($sql));
     }
 
     public static function editar($agenda) {
         $sql = "UPDATE agenda SET "
-                . "  codDoutor =      '" . $agenda->getCodDoutor() . "' , "
-                . "  codPaciente =       '" . $agenda->getCodPaciente() . "' , "
-                . "  codProcedimento =     '" . $agenda->getCodProcedimento() . "' , "
-                . "  data =  '" . $agenda->getData() . "' , "
+                . "  codServico =      '" . $agenda->getCodServico() . "' , "
+                . "  codData =       '" . $agenda->getData() . "' , "
+                . "  codHorario =     '" . $agenda->getHorario() . "' , "
                 . "  WHERE id =   " . $agenda->getId();
         Conexao::executar($sql);
     }
@@ -31,20 +28,18 @@ public static function inserir($agenda) {
     }
 
     public static function getAgenda() {
-        $sql = "SELECT d.id, d.codDoutor, d.codProcedimento, d.codPaciente, "
-                . " d.data"
+        $sql = "SELECT d.id, d.codServico, d.data, d.horario, "
                 . " FROM agenda d ";
         $result = Conexao::consultar($sql);
         $lista = new ArrayObject();
         if ($result) {
-            while (list($id, $codDoutor, $codProcedimento, $codPaciente,
+            while (list($id, $codServico, $data, $horario,
             $data) = mysqli_fetch_row($result)) {
                 $agenda = new Agenda();
                 $agenda->setId($id);
-                $agenda->setCodDoutor($codDoutor);
-                $agenda->setCodProcedimento($codProcedimento);
-                $agenda->setCodPaciente($codPaciente);
+                $agenda->setCodServico($codServico);
                 $agenda->setData($data);
+                $agenda->setHorario($horario);
                 $lista->append($agenda);
             }
         }
