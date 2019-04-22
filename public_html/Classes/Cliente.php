@@ -9,7 +9,7 @@ class Cliente{
     private $idade;
     private $senha;
     private $logado;
-    
+   
     function __construct($nome = null, $email=null, $cpf=null, $telefone=null, $sexo=null, $idade=null, $senha=null) {
         $this->nome = $nome;
         $this->email = $email;

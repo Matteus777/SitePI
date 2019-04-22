@@ -9,16 +9,14 @@ if (isset($_REQUEST['inserir'])) {
 
     $agenda = new Agenda();
     $agenda->setCodServico($_POST['servico']);
-    $agenda->setData(date("Y-m-d"));
+    $agenda->setData($_POST['data']);
     $agenda->setHorario($_POST['horario']);
+    
     if(AgendaDAO::inserir( $agenda )){
         header("Location: ../Telas/usuario.php");
         }else{
             echo'<script> alert("Não foi possível agendar a consulta)</script>';
               }   
-
     AgendaDAO::inserir($agenda);
-
-    
 }
 ?>

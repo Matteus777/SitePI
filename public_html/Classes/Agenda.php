@@ -60,8 +60,5 @@ class Agenda{
     function setData($data) {
         $this->data = $data;
     }
-
-
-    
 }
 ?>

@@ -17,20 +17,20 @@
                 <div class="forms2">
                 <label for="servico">Serviço:</label>
                  <select id="servico" name="servico">
-                    <option value="Cirurgia de Catarata">Cirurgia de Catarata</option>
-                    <option value="Cirurgia Refrativa">Cirurgia Refrativa</option>
-                    <option value="Acuidade Visual">Acuidade Visual</option>
-                    <option value="Teste de Ishihara">Teste de Ishihara</option>
-                    <option value="Aberrometria Wavefront">Aberrometria Wavefront</option>
-                    <option value="Fundo de Olho">Fundo de Olho</option>
-                    <option value="Curva de Pressão Intraocular">Curva de Pressão Intraocular</option>
-                    <option value="Ceratometria">Ceratometria</option>
-                    <option value="Ecobiometria Ocular">Ecobiometria Ocular</option>
-                    <option value="Gonioscopia">Gonioscopia</option>
-                    <option value="Paquimetria Ultrassônica">Paquimetria Ultrassônica</option>
-                    <option value="Topografia de Córnea">Topografia de Córnea</option>
-                    <option value="Retinoscopia">Retinoscopia</option>
-                    <option value="Exame de Visão">Exame de Visão</option>
+                    <option value=1>Cirurgia de Catarata</option>
+                    <option value=2>Cirurgia Refrativa</option>
+                    <option value=3>Acuidade Visual</option>
+                    <option value=4>Teste de Ishihara</option>
+                    <option value=5>Aberrometria Wavefront</option>
+                    <option value=6>Fundo de Olho</option>
+                    <option value=7">Curva de Pressão Intraocular</option>
+                    <option value=8>Ceratometria</option>
+                    <option value=9>Ecobiometria Ocular</option>
+                    <option value=10>Gonioscopia</option>
+                    <option value=11>Paquimetria Ultrassônica</option>
+                    <option value=12>Topografia de Córnea</option>
+                    <option value=13>Retinoscopia</option>
+                    <option value=14>Exame de Visão</option>
                 </select>
                 </div>
                 <div class="forms2">
