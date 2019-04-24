@@ -31,6 +31,7 @@
                     <option value=12>Topografia de Córnea</option>
                     <option value=13>Retinoscopia</option>
                     <option value=14>Exame de Visão</option>
+    
                 </select>
                 </div>
                 <div class="forms2">
@@ -61,7 +62,7 @@
                     <option value="18:00">18:00</option>
                 </select>
                 </div>
-                <input id="butao" type="submit" value="Agendar Consulta">
+                <input id="botao" type="submit" value="Agendar Consulta">
             </div>
             <?php require_once 'rodape.php'?>
         </form>
