@@ -23,37 +23,38 @@ h{
  font-family:tahoma;   
 }
 #fundo{
+    clear:both;
     background-image: url("img/eyes.png");
     background-size: 100%;
-    position:absolute;
-    margin-top: -660px;
     background-repeat: no-repeat;
     width: 100%;
-    height:440px;
-    opacity: 0.2;
-    
+    height: 800px;
+/*    opacity: 0.2;*/
 }
+
 a{
     color: inherit;
     text-decoration: none;
 }
 #texto1{
-    border: 1px solid white;
+/*    border: 1px solid black;*/
     margin-top: -200px;
     text-align:center;
+    width: 100%;
     
 }
 .dropdown {
   position: relative;
   display: inline-block;
   float:left;
-  width:20%;
+  width:16%;
   padding-top: 20px;
   padding-bottom: 20px;
   background-color: #07dfb4;
   text-align:center;
   color: white;
 }
+
 #Inicio:hover{
     animation-name: hover;
      animation-duration: 0.3s;
@@ -291,14 +292,7 @@ margin: 0 0;
   -webkit-transition:  height 0.3s;
   transition-timing-function: ease;
 }
-#Logo{
-    background-image: url("img/logoescrito.png");  
-    background-repeat: no-repeat;
-    background-size:50%;
-    width: auto;
-    height: 700px;
-    margin-left: 475px;   
-}
+
 .textos2{
     font-family: tahoma;
 }

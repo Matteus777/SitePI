@@ -11,10 +11,8 @@
         <script src="Javascript.js"></script>
     </head>
     <body>
-        <?php require_once 'menu.php'?>
-               <br>
-            <div id="Logo">&nbsp</div>  
-            <div id="fundo">&nbsp;</div>
+        <?php require_once 'menu.php'?>         
+            <div id="fundo"></div>
             <div ><h2 id="texto1">História</h2>
                 <p  id="historia" class="textos">Atuando no mercado desde 1990, fundada por Dr. Jorge e Dr. Geraldo, após se formarem, os filhos dos respectivos médicos, Dr. Vitor e Dr. Adalberto integraram a equipe. Ao longo desses anos, a Clínica Bom Olhar de Três Lagoas cresceu mantendo seu padrão de qualidade, ética e custo equilibrado na área da oftalmologia, agregando médicos oftalmologistas comprometidos com a atualização tecnológica para oferecer o melhor atendimento para a preservação da qualidade de vida de cada cliente que procura os nossos cuidados.
     Temos como missão: Zelar pelo bem-estar do cliente, garantindo um melhor desempenho para a saúde ocular. Diante desse objetivo, agregamos os seguintes valores à Clínica Bom Olhar:

@@ -52,5 +52,6 @@
     }
     ?>
     </a>
+    <a href="Cadastro.php"><div class="dropdown textos2" id="Cadastro">Cadastro</div></a>
 </header>
 <div style="clear: both;"></div>
