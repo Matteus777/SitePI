@@ -72,7 +72,6 @@ class ClienteDAO {
         $result = Conexao::consultar($sql);
 
         if ($result) {
-
             list($id, $nome, $email, $cpf,$telefone, $sexo, $idade ) = mysqli_fetch_row($result);
             $cliente = new Cliente();
             $cliente->setId($id);

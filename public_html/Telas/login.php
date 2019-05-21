@@ -14,13 +14,7 @@
             <div id="senha" class="textos2">Senha:<input type="password" name="txtSenha"></div>
             <div id="botaologin" class="textos2" onclick= "javascript:this.parentNode.submit();">Login</div>
             </form>
-                <?php
-        if(isset($_REQUEST['inseriu'])){
-            echo('<script> alert("Usuário cadastrado com sucesso");</script>');
-        }
-        
-        
-        ?>
+               
         </div>    
         
         </body>

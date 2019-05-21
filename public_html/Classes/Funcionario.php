@@ -7,7 +7,9 @@ class Funcionario{
     private $telefone;
     private $sala;
     private $senha;
-    function __construct($nome, $email, $cpf, $telefone, $sala,$senha) {
+   
+    
+    function __construct($nome = null, $email = null, $cpf = null, $telefone = null, $sala = null,$senha = null) {
         $this->nome = $nome;
         $this->email = $email;
         $this->cpf = $cpf;
